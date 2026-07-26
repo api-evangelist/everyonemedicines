@@ -1,20 +1,49 @@
 aid: everyonemedicines
-name: Everyonemedicines
-description: Everyonemedicines is a company surfaced as a portfolio company of khosla-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/everyonemedicines.png
+name: Everyone Medicines
+description: >-
+  Everyone Medicines is a therapeutics company listed in the Khosla Ventures
+  portfolio under the Therapeutics category, where it is described as
+  "individualized precision therapeutics." The company has no public developer
+  or API surface as of July 2026. Its original web address,
+  everyonemedicines.com, now issues a 301 redirect to www.eomeds.com, a domain
+  registered through GoDaddy on 2024-05-11 that currently resolves to no DNS A
+  record, so the site is dark and no page, documentation, or .well-known
+  document can be retrieved. Probes of the package registries (npm, PyPI),
+  GitHub organizations (everyonemedicines, eomeds), and the .well-known
+  discovery surface all returned nothing. This profile is retained in the API
+  Evangelist network as a venture-backed life-sciences lead; it carries probed
+  domain-security data only and should be re-run once the company publishes a
+  live site.
 url: https://raw.githubusercontent.com/api-evangelist/everyonemedicines/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - khosla-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Therapeutics
+- Precision Medicine
+- Biotechnology
+- Life Sciences
+- Health
+- Venture Backed
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +51,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/everyonemedicines-domain-security.yml
 - type: Website
   url: https://www.everyonemedicines.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

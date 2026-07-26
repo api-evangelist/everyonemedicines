@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: searched
+source: live HTTP probe of https://www.everyonemedicines.com/.well-known/*
+host: https://www.everyonemedicines.com
+note: >-
+  No .well-known documents are published. Every probed path returns 301 to
+  https://www.eomeds.com/, which currently has no DNS A record (NXDOMAIN), so no
+  document resolves. Recorded as an honest negative result; no WellKnown pointer
+  is wired in apis.yml because no catalog exists.
+documents:
+- path: /.well-known/security.txt
+  status: 301
+  redirect_to: https://www.eomeds.com/.well-known/security.txt
+  resolved: false
+- path: /.well-known/openid-configuration
+  status: 301
+  redirect_to: https://www.eomeds.com/.well-known/openid-configuration
+  resolved: false
+- path: /.well-known/oauth-authorization-server
+  status: 301
+  redirect_to: https://www.eomeds.com/.well-known/oauth-authorization-server
+  resolved: false
+- path: /.well-known/api-catalog
+  status: 301
+  redirect_to: https://www.eomeds.com/.well-known/api-catalog
+  resolved: false
+- path: /.well-known/ai-plugin.json
+  status: 301
+  redirect_to: https://www.eomeds.com/.well-known/ai-plugin.json
+  resolved: false
+- path: /llms.txt
+  status: 301
+  redirect_to: https://www.eomeds.com/llms.txt
+  resolved: false
