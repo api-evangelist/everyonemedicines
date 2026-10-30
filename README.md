@@ -64,13 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Everyone Medicines is a therapeutics company listed in the Khosla Ventures portfolio under the Therapeutics category, described there as "individualized precision therapeutics."
+Everyone Medicines is a therapeutics company listed in the Khosla Ventures portfolio under the Therapeutics category, where it is described as "individualized precision therapeutics." The company has no public developer or API surface as of July 2026. Its original web address, everyonemedicines.com, now issues a 301 redirect to www.eomeds.com, a domain registered through GoDaddy on 2024-05-11 that currently resolves to no DNS A record, so the site is dark and no page, documentation, or .well-known document can be retrieved. Probes of the package registries (npm, PyPI), GitHub organizations (everyonemedicines, eomeds), and the .well-known discovery surface all returned nothing. This profile is retained in the API Evangelist network as a venture-backed life-sciences lead; it carries probed domain-security data only and should be re-run once the company publishes a live site.
 
-As of July 2026 the company has no public developer or API surface. `everyonemedicines.com` 301-redirects to `www.eomeds.com`, a GoDaddy-registered domain (created 2024-05-11) with no DNS A record, so the site is currently dark. Probes of npm, PyPI, GitHub organizations, and the `.well-known` discovery surface returned nothing.
+**Areas:** Company · Therapeutics · Precision Medicine · Biotechnology · Life Sciences · Health
 
-Backed by: khosla-ventures — https://www.everyonemedicines.com/
+## Everyone Medicines on APIs.io
 
-## Artifacts
+Everything profiled for Everyone Medicines is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/everyonemedicines/](https://apis.io/providers/everyonemedicines/)** — or go straight to one of the APIs or properties below.
 
-- `security/everyonemedicines-domain-security.yml` — probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC
-- `well-known/everyonemedicines-well-known.yml` — negative record of the `.well-known` probe
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Everyonemedicines Domain Security](https://apis.io/security/everyonemedicines/everyonemedicines-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.everyonemedicines.com/)
+
+## API Evangelist rating
+
+**Kin Score 3.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/everyonemedicines/](https://apis.io/providers/everyonemedicines/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Everyone Medicines: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/everyonemedicines/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
